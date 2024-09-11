@@ -1,6 +1,7 @@
 A **real-time** chat application built using the **MERN** stack (MongoDB, Express, React, Node.js) and Socket.io for real-time communication
 
 **Screenshots**
+
 ![Signup page](https://github.com/user-attachments/assets/6f23a733-5502-4af9-8d39-071e449f5981)
 ![Login page](https://github.com/user-attachments/assets/c08fe64b-4594-4c6d-986b-b6b38fca4e4a)
 ![Chat window](https://github.com/user-attachments/assets/7e7d7686-e4ca-49d7-9e99-99676c68f150)
@@ -17,7 +18,7 @@ A **real-time** chat application built using the **MERN** stack (MongoDB, Expres
 -Error handling and notifications using React Toast
 
 **Tech Stack**
-**Frontend:**
+*(**Frontend:**)
 -**React.js:** User Interface
 -**Tailwind CSS:** Styling
 -**Socket.io-client:** Real-time communication
