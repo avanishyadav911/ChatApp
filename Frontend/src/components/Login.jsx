@@ -42,8 +42,8 @@ function Login() {
           onSubmit={handleSubmit(onSubmit)}
           className="border border-black px-6 py-2 rounded-md space-y-3 w-96"
         >
-          <h1 className="text-2xl items-center text-blue-600 font-bold">
-            Messenger
+         <h1 className="text-2xl items-center text-rgb(22, 29, 111) font-bold text-center border border-black bg-neutral-900)">
+            Chatify
           </h1>
           <h2 className="text-2xl items-center">
             Login with your{" "}

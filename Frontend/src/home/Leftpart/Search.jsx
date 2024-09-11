@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { FaSearch } from "react-icons/fa";
 import useGetAllUsers from "../../context/useGetAllUsers";
 import useConversation from "../../statemanage/useConversation";
 import toast from "react-hot-toast";
+import { MdOutlinePersonSearch } from "react-icons/md";
 function Search() {
   const [search, setSearch] = useState("");
   const [allUsers] = useGetAllUsers();
@@ -26,7 +26,7 @@ function Search() {
       <div className="px-6 py-4">
         <form onSubmit={handleSubmit}>
           <div className="flex space-x-3">
-            <label className=" border-[1px] border-gray-700 bg-slate-900 rounded-lg p-3 flex items-center gap-2 w-[80%]">
+            <label className=" border-[1px] border-black bg-white rounded-lg p-3 flex items-center gap-2 w-[80%]">
               <input
                 type="text"
                 className="grow outline-none bg-transparent"
@@ -36,7 +36,7 @@ function Search() {
               />
             </label>
             <button>
-              <FaSearch className="text-5xl p-2 hover:bg-gray-600 rounded-full duration-300" />
+             <MdOutlinePersonSearch className="text-5xl p-2 hover:bg-gray-600 rounded-full duration-300" />
             </button>
           </div>
         </form>
