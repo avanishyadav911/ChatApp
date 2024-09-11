@@ -8,7 +8,6 @@ A real-time chat application built using the **MERN** stack (MongoDB, Express, R
 - Real-time messaging with **Socket.io**
 - User authentication (Sign up, Login, JWT token-based authentication)
 - Private one-on-one chat
-- Group chat functionality
 - Online/offline user status tracking
 - Persistent chat history using **MongoDB**
 - Responsive UI built with **React** and **Tailwind CSS**
@@ -46,6 +45,7 @@ A real-time chat application built using the **MERN** stack (MongoDB, Express, R
 - **Typing indicator:** Show when another user is typing
 - **File sharing:** Allow users to send images, files, and other media
 - **Typing indicator:** Show when another user is typing
+-  **Group chat functionality:** Allow users to create group
 
 
 
