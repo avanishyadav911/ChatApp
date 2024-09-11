@@ -14,6 +14,7 @@ A real-time chat application built using the **MERN** stack (MongoDB, Express, R
 - Responsive UI built with **React** and **Tailwind CSS**
 - Secure communication (Password hashing with **bcrypt**)
 - Error handling and notifications using **React Toast**
+- **Real-time push notifications** for new messages on mobile devices
 
 ## Tech Stack
 
@@ -43,7 +44,9 @@ A real-time chat application built using the **MERN** stack (MongoDB, Express, R
 ## Future Enhancements
 
 - **Typing indicator:** Show when another user is typing
-- **Push notifications:** Real-time mobile notifications for new messages
+- **File sharing:** Allow users to send images, files, and other media
+- **Typing indicator:** Show when another user is typing
+
 
 
 ## Contributing
