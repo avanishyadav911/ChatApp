@@ -14,7 +14,7 @@ function User({ user }) {
       }`}
       onClick={() => setSelectedConversation(user)}
     >
-      <div className="flex space-x-4 px-8 py-3 hover:bg-slate-700 duration-300 cursor-pointer">
+      <div className="flex space-x-4 px-8 py-3 hover:bg-gray-300 duration-300 cursor-pointer">
         <div className={`avatar ${isOnline ? "online" : ""}`}>
           <div className="w-12 rounded-full">
              <img src="https://media.licdn.com/dms/image/v2/D5603AQG1eVy1JohmeQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725270231427?e=1731542400&v=beta&t=NVCUMaK-ZUBYCXz_sf4t2_GdvGjtsJYh6Z9YR4w4ynQ" />
