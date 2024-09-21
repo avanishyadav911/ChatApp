@@ -45,7 +45,7 @@ function Signup() {
   };
   return (
     <>
-      <div className="flex h-screen items-center justify-center p-4 sm:p-6 md:p-8 bg-[url('C:\Users\hp\Downloads\ChatApp\Frontend\src\assets\bgimg.jpg')]">
+      <div className="flex h-screen items-center justify-center p-4 sm:p-6 md:p-8 bg-black">
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="border border-white px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 rounded-md space-y-4 w-full max-w-md"

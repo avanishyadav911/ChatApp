@@ -37,15 +37,15 @@ function Login() {
   };
   return (
     <>
-      <div className="flex h-screen items-center justify-center">
+      <div className="flex h-screen items-center justify-center p-4 sm:p-6 md:p-8 bg-black ">
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="border border-black px-6 py-2 rounded-md space-y-3 w-96"
+          className="border border-white px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 rounded-md space-y-4 w-full max-w-md"
         >
-          <h1 className="text-2xl items-center text-blue-600 font-bold">
-            Messenger
+         <h1 className="text-xl sm:text-2xl md:text-3xl text-center text-white font-bold">
+            Chatify
           </h1>
-          <h2 className="text-2xl items-center">
+          <h2 className="text-lg sm:text-xl md:text-2xl text-center text-white">
             Login with your{" "}
             <span className="text-blue-600 font-semibold">Account</span>
           </h2>
@@ -91,7 +91,7 @@ function Login() {
             <input
               type="password"
               className="grow"
-              placeholder="password"
+              placeholder="Password"
               {...register("password", { required: true })}
             />
           </label>
@@ -109,7 +109,7 @@ function Login() {
               className="text-white bg-blue-600 cursor-pointer w-full rounded-lg py-2"
             ></input>
           </div>
-          <p>
+          <p className="text-center text-sm mt-2 text-white">
             Don't have any Account?{" "}
             <Link
               to={"/signup"}
