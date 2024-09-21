@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "ChatApp ",
+  "description": "ChatApp by Sunfire Sensei",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,11 +9,12 @@
     "start": "nodemon index.js",
     "dev": "nodemon index.js",
     "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
+
   },
   "keywords": [
     "MERN"
   ],
-  "author": "Avanish",
+  "author": "Ankit Pathak",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

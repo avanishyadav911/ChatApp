@@ -3,6 +3,7 @@ import bcrypt from "bcryptjs";
 import createTokenAndSaveCookie from "../jwt/generateToken.js";
 export const signup = async (req, res) => {
   const { fullname, email, password, confirmPassword } = req.body;
+
   try {
     if (password !== confirmPassword) {
       return res.status(400).json({ error: "Passwords do not match" });
@@ -41,7 +42,7 @@ export const login = async (req, res) => {
     const user = await User.findOne({ email });
     const isMatch = await bcrypt.compare(password, user.password);
     if (!user || !isMatch) {
-      return res.status(400).json({ error: "Invalid user credential" });
+      return res.status(400).json({ error: "Invalid username or password" });
     }
     createTokenAndSaveCookie(user._id, res);
     res.status(201).json({
